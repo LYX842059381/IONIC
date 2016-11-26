@@ -1,0 +1,18 @@
+<!-- 第一种方式 -->
+<!-- <ion-content ng-class="{'small': isSmall,'big': isBig,'normal': isNormal}">
+	You can explicitly state the size of a column if for example you'd want specific columns to be larger than the others in the same row. By default each column will evenly take up the available area, but in the case where a column should be a certain size, Ionic's grid uses a percent system (in contrast to a locked in 12 column grid).
+
+	An advantage with this grid system is that you only have to state the percentage for the column that needs it, and the others will still evenly divide up the available areas.
+
+	<button class="button" ng-click="setFont()">设置文字大小</button>
+</ion-content> -->
+
+
+<!-- 第二种方式 -->
+<ion-content ng-class="{'small': fontStyle[0],'big': fontStyle[1] ,'normal': fontStyle[2]}">
+	You can explicitly state the size of a column if for example you'd want specific columns to be larger than the others in the same row. By default each column will evenly take up the available area, but in the case where a column should be a certain size, Ionic's grid uses a percent system (in contrast to a locked in 12 column grid).
+
+	An advantage with this grid system is that you only have to state the percentage for the column that needs it, and the others will still evenly divide up the available areas.
+
+	<button class="button" ng-click="setFont()">设置文字大小</button>
+</ion-content>

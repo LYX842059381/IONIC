@@ -1,0 +1,128 @@
+.tabs-self .tab-nav.tabs {
+	background: #f7f7f7;
+	border-top: 1px solid #b4b4b3!important;
+}
+
+.tabs-self .tab-item.tab-item-active {
+	color: #387ef5;
+}
+
+.tabs-self .tabs .tab-item .badge {
+	background: rgba(137, 172, 248, .6)
+}
+
+img {
+	width: 100%;
+}
+
+.content1 {
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+.content1 div {
+	height: 148px;
+}
+
+.content1 div.col div {
+	padding: 5px;
+	width: 100%;
+	/*background: #10c1f3;*/
+}
+.content1 div.col .jiudian{
+	background: #10c1f3;
+}
+.content1 div.col .xiecheng{
+	background: #896aeb;
+}
+.content1 div.col .xiecheng i{
+	display: inline-block;
+	padding-top: 10px;
+	
+}
+.content1 div.col .xiecheng p{
+	margin-top: 20px;
+	
+}
+.content1 div.col .xiecheng span{
+	display: inline-block;
+	margin-top: 20px;
+	
+}
+.content1 div.col p {
+	margin-top: 34px;
+	
+}
+.content1 div.col i{
+	display: inline-block;
+	padding-top: 20px;
+}
+.normal {
+	font-size: 20px;
+}
+.small {
+	font-size: 12px;
+}
+.big {
+	font-size: 30px;
+}
+
+.col-50 .myfont{
+	font-size: 28px;
+}
+
+.jipiao{
+	height: 70px;
+	background: #387ef5;
+}
+.huoche{
+	height: 70px;
+	background: #ef463a;
+}
+.qiche{
+	height: 70px;
+	background: #10c1f3;
+}
+.content2{
+	text-align: center;
+	margin-top: 5px!important;
+	color: white;
+}
+.content2 div.col p {
+	padding-top: 10px;
+	font-size: 16px;
+}
+.content2 div.col i{
+	display: inline-block;
+	padding-top: 5px;
+	font-size: 28px;
+}
+
+
+.content3{
+	text-align: center;
+	margin-top: 5px!important;
+	color: white;
+}
+.content3 div.col p {
+	padding-top: 10px;
+	font-size: 16px;
+}
+.content3 div.col i{
+	display: inline-block;
+	padding-top: 5px;
+	font-size: 28px;
+}
+.luyou{
+	height: 70px;
+	background: #32cd5e;
+}
+.jingdian{
+	height: 70px;
+	background: #ffc900;
+}
+.gonglue{
+	height: 70px;
+	background: #896aeb;
+}
